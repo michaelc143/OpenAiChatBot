@@ -14,7 +14,14 @@ function ChatBot() {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
-
+    
+    //For image creation
+    //const response = await openai.createImage({
+    //  prompt:input,
+    //  n:1,
+    //  size="1024x1024",
+    //});
+    //setResponse(response.data.data[0].url);
     const response = await openai.createCompletion({
       model: "text-davinci-003",
       prompt: input,
