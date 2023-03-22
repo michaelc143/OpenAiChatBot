@@ -18,8 +18,8 @@ function ChatBot() {
     //For image creation
     //const response = await openai.createImage({
     //  prompt:input,
-    //  n:1,
-    //  size="1024x1024",
+    //  n:1, (n is number of imgs)
+    //  size="1024x1024", (size of output imgs)
     //});
     //setResponse(response.data.data[0].url);
     const response = await openai.createCompletion({
