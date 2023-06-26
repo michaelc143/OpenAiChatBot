@@ -15,6 +15,6 @@ npm install
 ```bash
 npm run start
 ```
-4. Obtain an API key from OpenAi: https://platform.openai.com/account/api-keys
-5. Add the API key in required places
-6. Happy developing!
+4. Obtain an API key from OpenAi: platform.openai.com/docs/introduction
+5. Add the API key in the required places
+6. Use the link in #4 for further documentation and happy developing!
